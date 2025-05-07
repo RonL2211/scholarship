@@ -32,9 +32,9 @@ function LoginPage() {
         userPosition === "ראש התמחות"
       ) {
         navigate("/lecturer");
-      } else if (userPosition === "מנהל סטודנטים") {
-        navigate("/faculty-head");
       } else if (userPosition === "דיקאן") {
+        navigate("/faculty-head");
+      } else if (userPosition === "מנהל סטודנטים") {
         navigate("/committee");
       } else {
         navigate("/unknown-role");

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoginPage from "./components/LoginPage";
 import CommitteeLayout from "./layouts/CommitteeLayout";  // ודא שהנתיב נכון
 import CommitteeDashboard from "./pages/CommitteeDashboard";
-import NewFormPage from "./pages/NewFormPage";
+import NewFormPage from "./pages/AddForm/NewFormPage";
 import CommitteeFormsPage from "./pages/CommitteeFormsPage"; // אם קיים
 
 function App() {
